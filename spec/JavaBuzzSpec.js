@@ -19,5 +19,11 @@ describe('Javabuzz', function() {
          expect(javabuzz.isDivisibleByThree(1)).toBe(false);
         });
     });
+
+    describe('knows when a number is', function() {
+        it('divisible by 5', function() {
+         expect(javabuzz.isDivisibleByFive(5)).toBe(true);
+        });
+    });
 });
 
